@@ -1,0 +1,17 @@
+<apex:component controller="ngAppResourceComponentController">
+
+	<!-- CSS -->
+		<apex:stylesheet value="{!URLFOR($Resource.app, 'resources/css/bootstrap3.min.css')}" />
+		<apex:stylesheet value="{!URLFOR($Resource.app, 'resources/css/ladda-themeless.min.css')}" />
+		<apex:stylesheet value="{!URLFOR($Resource.app, 'resources/css/angular-growl.min.css')}" />
+		<apex:stylesheet value="{!URLFOR($Resource.app, 'resources/css/chosen.bootstrap.min.css')}" />
+		<apex:stylesheet value="{!URLFOR($Resource.app, 'resources/css/chosen.spinner.css')}" />
+
+	<!-- Fonts -->
+		<apex:stylesheet value="{!URLFOR($Resource.app, 'resources/css/font-awesome.min.css')}" />
+
+	<!-- This will conditionally load the JS files from localhost -->
+	<c:localhostResources rendered="{!useLocalResources}"/>
+	<c:serversideResources rendered="{!NOT(useLocalResources)}"/>
+
+</apex:component>

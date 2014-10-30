@@ -1,0 +1,19 @@
+{
+    "username": "kjp-ngvf@codefriar.com", 
+    "environment": "developer", 
+    "project_name": "Angular Vf Seed", 
+    "workspace": "/Users/kpoorman/Documents/mmProjects", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "VJLTEKN3PXLYBQP1IFXGEWBG0P3HT831", 
+    "metadata_container": "1dcj0000000Th4LAAS", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "StaticResource", 
+        "CustomObject", 
+        "Profile"
+    ]
+}

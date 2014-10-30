@@ -1,0 +1,59 @@
+<apex:component >
+
+<!-- NON-Angular js libraries -->
+	<script type="text/javascript" src="https://localhost:8000/resources/lib/jquery-2.1.1.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/lib/lodash.underscore.min.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/lib/queryParams.js"/>
+
+<!-- ANGULAR -->
+	<script type="text/javascript" src="https://localhost:8000/resources/ng/angular.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ng/angular-loader.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ng/angular-messages.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ng/angular-sanitize.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ng/angular-animate.js"/>
+
+<!-- Third Party Angular Modules -->
+	<script type="text/javascript" src="https://localhost:8000/resources/lib/angular-growl.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/lib/angular-ui-router.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/lib/ladda.min.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/lib/ui-bootstrap-tpls-0.11.0.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/lib/ui-utils.js"/>
+<!-- 	<script type="text/javascript" src="https://localhost:8000/resources/lib/safeApply.min.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/lib/restangular.js"/> -->
+
+<!-- ngForce -->
+	<script type="text/javascript" src="https://localhost:8000/resources/ngforce/ngForceWithDependencies.min.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ngforce/ngForce-visualForceRemoting.js"/>
+
+	<!-- <script type="text/javascript" src="https://localhost:8000/resources/ngforce/ngForce.min.js"/> -->
+<!-- 	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce.annotated.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-multipart.annotated.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-visualForceRemoting.annotated.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-sfrquery.annotated.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-sfrfile.annotated.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-sfrBackend.annotated.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-sfrAnalytics.annotated.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-sfr.annotated.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-sfTemplate.annotated.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-remoteObjects.annotated.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-encodedUriQuery.annotated.js"/> -->
+
+
+<!-- Your Application Module Files -->
+	<script type="text/javascript" src="https://localhost:8000/resources/app/app.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/app/constants.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/app/constants.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/app/routes.js"/>
+	<script type="text/javascript" src="https://localhost:8000/resources/app/run.js"/>
+
+<!-- Custom Angular Directives -->
+	<script type="text/javascript" src="https://localhost:8000/resources/directives/angular-ladda.min.js"/>
+
+<!-- Custom Angular Services -->
+
+<!-- Custom Angular Controllers -->
+	<script type="text/javascript" src="https://localhost:8000/resources/controllers/masterAppPageCtrl.js"/>
+
+<!-- Custom Angular Filters -->
+
+</apex:component>

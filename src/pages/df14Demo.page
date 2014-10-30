@@ -1,0 +1,23 @@
+<apex:page showHeader="false"
+sidebar="false"
+standardStylesheets="false"
+docType="html-5.0"
+>
+
+	<!-- Include our resources -->
+	<c:ngApp /> 
+
+	<div ng-app="df14" class="container-fluid ui-view-container">
+		<div class="ui-view" id="master-ui-view" style="padding-top: 70px;">
+			<!-- our main content will go here -->
+		</div>
+	</div>
+
+	<script>
+		window.queryParams = queryString.parse(location.search);
+		window.planId = window.queryParams.id;
+		window.debug = typeof window.queryParams.debug !== "undefined" ? window.queryParams.debug : false;
+		window.userId = "{!$User.Id}";
+	</script>
+	<c:ngforce />
+</apex:page>

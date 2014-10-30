@@ -1,0 +1,59 @@
+{
+    "properties": [
+        {
+            "modifiers": [], 
+            "name": "useLocalResources", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 3
+            }, 
+            "type": "Boolean"
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [
+        {
+            "modifiers": [], 
+            "name": "ngAppController", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 9, 
+                "line": 5
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "ngAppController", 
+    "tableDeclaration": {
+        "type": "ngAppController", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "ngAppController"
+    }, 
+    "key": "01pj00000001cwCAAQ", 
+    "variables": [
+        {
+            "type": "useLocalhostAngularResources__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 35, 
+                "line": 6
+            }, 
+            "name": "useLocal"
+        }
+    ], 
+    "id": "01pj00000001cwCAAQ", 
+    "methods": []
+}

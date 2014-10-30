@@ -1,0 +1,45 @@
+<apex:component >
+
+<!-- These files are loaded serverside. -->
+<!-- These Files should be MINIFIED -->
+
+<!-- NON-Angular js libraries -->
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/lib/jquery-2.1.1.min.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/lib/lodash.underscore.min.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/lib/queryParams.min.js')}"/>
+
+<!-- ANGULAR -->
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/ng/angular.min.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/ng/angular-loader.min.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/ng/angular-messages.min.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/ng/angular-sanitize.min.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/ng/angular-animate.min.js')}"/>
+
+<!-- Third Party Angular Modules -->
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/lib/angular-growl.min.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/lib/angular-ui-router.min.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/lib/ladda.min.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/lib/ui-bootstrap-tpls-0.11.0.min.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/lib/ui-utils.min.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/lib/safeApply.min.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/lib/restangular.js')}"/>
+
+<!-- ngForce -->
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/ngForce/jsSrc/ngForce.js')}"/>
+
+<!-- Your Application Module Files -->
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/app/app.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/app/constants.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/app/constants.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/app/routes.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/app/run.js')}"/>
+
+<!-- Custom Angular Directives -->
+
+<!-- Custom Angular Services -->
+
+<!-- Custom Angular Controllers -->
+
+<!-- Custom Angular Filters -->
+
+</apex:component>

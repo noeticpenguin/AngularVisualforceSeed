@@ -1,0 +1,18 @@
+<apex:page showHeader="false"
+sidebar="false"
+standardStylesheets="false"
+applybodytag="false"
+docType="html-5.0">
+	
+	<div class="jumbotron">
+		<h1>Hello, world!</h1>
+	 	<span>Our app version is: {{version}}</span>
+	</div>
+
+	<ul>
+		<li ng-repeat="acct in accounts" ng-class="{'bg-success': acct.Name == 'GenePoint'}" >
+			Account Name: {{acct.Name}}
+		</li>
+	</ul>
+	
+</apex:page>

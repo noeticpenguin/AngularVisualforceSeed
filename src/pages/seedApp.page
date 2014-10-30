@@ -1,0 +1,75 @@
+<!-- 
+We'll be using a standard visualforce page to act as our Master Application
+Container page. 
+In order to contain an Angular.js application, the following apex:page tag
+attributes should be set:
+
+	ShowHeader="false"					// This strips the standard salesforce header
+	Sidebar="false"							// This disables the left hand sidebar
+	StandardStyleSheets="false"	// This disables all of the stylesheets included by salesforce
+	DocType="html-5.0"					// Sets the doctype to html5
+
+Together, these attributes effectively force visualforce to render a blank page, without any
+visualforce interference. This is crucial to keep VF's on-page js from interfereing with
+Angular's on-page js.
+
+ -->
+
+<apex:page showHeader="false"
+sidebar="false"
+standardStylesheets="false"
+docType="html-5.0"
+>
+
+	<!-- 
+		The Seed application is highly opinionated and comes with a number of visualforce 
+		components that enforce/enable these opinions. 
+
+		Specifically, rather than having 2-3 pages of apex:includeScript tags and / or 
+		stylesheet includes, the seed project utilizes a visualforce component named
+		ngApp. This component is responsible for conditiionally loading all ngApp resources.
+
+		Additionally, this component acts as a "broker" component. It inspects a custom setting
+		and, if enabled, loads the .js files from a local host webserver rather than Salesforce.
+		This allows you to rapidly modify your js, and test your changes before uploading the 
+		static resource bundle to your org. More on this in the App.Resources/resources/readme.md
+		file.
+	-->
+	<c:ngApp /> <!-- Load our resources -->
+	<!-- 
+		This seed project also contains a custom Angular-Salesforce library called
+		ngForce, which you can learn more about here:
+			http://noeticpenguin.github.io/ngForce/
+		This component loads the ngForce library, it's associated dependencies and
+		makes it available as a module for Dependency injection
+	-->
+	<c:ngforce />
+
+	<!-- ngForce Angular Config
+		In order to provide secure authentication for the ngForce Restapi adapter
+		This library utilizes a custom visualforce page, called angular_config. 
+		This page returns, amongst other things, the session id as part of a DI able
+		object. 
+		Do not use a vf aped:includeScript tag for this.
+	-->
+	<script src="{!URLFOR($Page.angular_config)}"></script>
+
+	<!--
+		This div will serve as our master application container. It is 
+		responsible for bootstrapping our Angular app.
+
+		Note: If you change the name of the application Module in app.js 
+		to something other than 'seedApp', you'll need to make that change here as
+		well. 
+
+		Note: This seed app presumes the use of Bootstrap.
+	-->
+	<div ng-app="seedApp" class="container-fluid ui-view-container">
+		<div class="ui-view" id="master-ui-view" style="padding-top: 70px;">
+			<!-- our main content will go here -->
+		</div>
+	</div>
+
+
+	
+</apex:page>

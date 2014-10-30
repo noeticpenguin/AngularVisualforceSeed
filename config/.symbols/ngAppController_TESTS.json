@@ -1,0 +1,63 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "ngAppController_TESTS", 
+    "tableDeclaration": {
+        "type": "ngAppController_TESTS", 
+        "modifiers": [
+            "TEST"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 15, 
+            "line": 2
+        }, 
+        "name": "ngAppController_TESTS"
+    }, 
+    "key": "01pj00000001UG4AAM", 
+    "variables": [
+        {
+            "type": "useLocalhostResources__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 28, 
+                "line": 5
+            }, 
+            "name": "x"
+        }, 
+        {
+            "type": "ngAppController", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 11
+            }, 
+            "name": "app"
+        }
+    ], 
+    "id": "01pj00000001UG4AAM", 
+    "methods": [
+        {
+            "modifiers": [
+                "TEST", 
+                "STATIC"
+            ], 
+            "name": "test_method_one", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 22, 
+                "line": 4
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+<apex:page showheader="false" sidebar="false" contenttype="text/javascript">
+(function(angular){
+    var sitePrefix = '{!$Site.Prefix}';
+    if(sitePrefix === '') sitePrefix ='/apex';
+
+    angular.module('ngForce.config', []).constant('ngForceConfig', {
+        sessionId: '{!$Api.Session_ID}',
+        sitePrefix: sitePrefix,
+        resourceUrl: '{!URLFOR($Resource.app)}'
+    });
+})(angular);
+</apex:page>
