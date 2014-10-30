@@ -68,5 +68,3 @@ You *must also configure your Salesforce custom setting record established durin
 ## ngForce
 
 This seed project utilizes the ngForce library for data interchange with Salesforce's REST api's as well as Javascript Remoting and Remote Objects. See [https://noeticpenguin.github.io/ngForce/](https://noeticpenguin.github.io/ngForce) for more information.
-
-## Special Features
