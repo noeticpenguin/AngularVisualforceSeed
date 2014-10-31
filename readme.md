@@ -15,7 +15,7 @@ The seed itself, is distributed as an unmanaged package consisting of a few visu
 You can choose to either clone this repository, and manually install the components to your org, or utilize the unmanaged package link. As I'm not a masochist, I'll leave manual installation as an exercise to the reader. To install using the Unmanaged Package url, click the link below *after* having logged into your org. Regardless of how you install it, please be sure to create the necessary custom setting record. Navigate to the "Use Localhost Angular Resources" Custom setting and create a record named "default" with the Use_Localhost_resources checkbox left Unchecked. 
 
 #### Unmanaged Package URL:
-[https://login.salesforce.com/packaging/installPackage.apexp?p0=04tj0000001VrIT](Click here to install as an unmanaged package)
+[Click here to install as an unmanaged package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tj0000001VrIT)
 
 ## Methodology
 
