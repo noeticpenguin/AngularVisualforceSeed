@@ -18,26 +18,9 @@
 	<script type="text/javascript" src="https://localhost:8000/resources/lib/ladda.min.js"/>
 	<script type="text/javascript" src="https://localhost:8000/resources/lib/ui-bootstrap-tpls-0.11.0.js"/>
 	<script type="text/javascript" src="https://localhost:8000/resources/lib/ui-utils.js"/>
-<!-- 	<script type="text/javascript" src="https://localhost:8000/resources/lib/safeApply.min.js"/>
-	<script type="text/javascript" src="https://localhost:8000/resources/lib/restangular.js"/> -->
 
 <!-- ngForce -->
 	<script type="text/javascript" src="https://localhost:8000/resources/ngforce/ngForceWithDependencies.min.js"/>
-	<script type="text/javascript" src="https://localhost:8000/resources/ngforce/ngForce-visualForceRemoting.js"/>
-
-	<!-- <script type="text/javascript" src="https://localhost:8000/resources/ngforce/ngForce.min.js"/> -->
-<!-- 	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce.annotated.js"/>
-	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-multipart.annotated.js"/>
-	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-visualForceRemoting.annotated.js"/>
-	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-sfrquery.annotated.js"/>
-	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-sfrfile.annotated.js"/>
-	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-sfrBackend.annotated.js"/>
-	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-sfrAnalytics.annotated.js"/>
-	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-sfr.annotated.js"/>
-	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-sfTemplate.annotated.js"/>
-	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-remoteObjects.annotated.js"/>
-	<script type="text/javascript" src="https://localhost:8000/resources/ngforce2/ngForce-encodedUriQuery.annotated.js"/> -->
-
 
 <!-- Your Application Module Files -->
 	<script type="text/javascript" src="https://localhost:8000/resources/app/app.js"/>

@@ -25,7 +25,7 @@
 	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/lib/restangular.js')}"/>
 
 <!-- ngForce -->
-	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/ngForce/jsSrc/ngForce.js')}"/>
+	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/ngForce/ngForceWithDependencies.min.js')}"/>
 
 <!-- Your Application Module Files -->
 	<apex:includeScript value="{!URLFOR($Resource.app, '/resources/app/app.js')}"/>
